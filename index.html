@@ -30,7 +30,7 @@
       <!-- /slider section -->
 
       <div class="img-slider">
-        <div class="box" v-for="(img, i) in imgSlider" :class="indexImg == i ? 'img-border' : '' "><img v-bind:src="imgSlider[i]" alt=""></div>
+        <div class="box" v-for="(img, i) in imgSlider" :class="indexImg == i ? 'img-border' : '' " v-on:click="indexImg = i"><img v-bind:src="imgSlider[i]" alt=""></div>
       </div>
 
     </div>
