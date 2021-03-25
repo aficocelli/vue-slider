@@ -5,6 +5,10 @@
   padding:0;
   box-sizing: border-box;
 }
+
+.color-btn{
+  color:blue;
+}
 /* /MIX */
 
 .container{
@@ -38,12 +42,15 @@
 /* /slider button */
 
 /* bullet btn */
-.bullet{
+.bullets-box{
   position:absolute;
-  right:50%;
-  bottom:20px;
+  bottom: 20px;
+  left: 50%;
   transform:translateX(-50%);
+}
+.bullet{
   color:#fff;
+  margin: 0 5px;
 }
 /* /bullet btn */
 

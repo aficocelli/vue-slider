@@ -40,6 +40,14 @@ var app = new Vue({
         this.indexImg = this.imgSlider.length-1;
 
       }
+    },
+
+    bulletBtn: function(){
+
+
+      alert("ciao");
+
+
     }
 
 
