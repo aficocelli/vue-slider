@@ -55,3 +55,19 @@
 /* /bullet btn */
 
 /* /slider section */
+.img-slider{
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+}
+.box{
+
+  height:30vh;
+  width:200px;
+
+}
+.box img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+}
