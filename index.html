@@ -20,9 +20,9 @@
 
       <!-- slider section -->
       <div class="slider-section">
-        <i class="fas fa-angle-left slider-left"></i>
-        <img src="img/test.jpg" alt="test">
-        <i class="fas fa-angle-right slider-right"></i>
+        <i class="fas fa-angle-left slider-left" @click = "leftBtn"></i>
+        <img v-bind:src="imgSlider[indexImg]" alt="test">
+        <i class="fas fa-angle-right slider-right" @click = "rightBtn"></i>
         <i class="fas fa-circle bullet"></i>
       </div>
       <!-- /slider section -->
