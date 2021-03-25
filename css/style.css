@@ -10,9 +10,10 @@
 .container{
   height:100vh;
 }
-
+ /* slider section */
 .slider-section{
   height:50%;
+  position:relative;
 
 }
 .slider-section img{
@@ -20,3 +21,21 @@
   width:100%;
   object-fit: cover;
 }
+/* slider button */
+.slider-left, .slider-right{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+  font-size:46px;
+  color:#fff;
+}
+.slider-left{
+  left: 20px;
+}
+.slider-right{
+  right: 20px;
+}
+
+/* /slider button */
+
+/* /slider section */
