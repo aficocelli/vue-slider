@@ -16,6 +16,8 @@ var app = new Vue({
 
     indexImg:0,
 
+
+
   },
 
   methods: {
@@ -42,13 +44,11 @@ var app = new Vue({
       }
     },
 
-    bulletBtn: function(){
+    
 
 
-      alert("ciao");
 
 
-    }
 
 
   }
