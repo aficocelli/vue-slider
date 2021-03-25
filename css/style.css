@@ -9,6 +9,10 @@
 .color-btn{
   color:#00008e;
 }
+
+.img-border{
+  box-shadow: 0px 0px 12px 3px rgba(84,84,255,1);
+}
 /* /MIX */
 
 .container{
@@ -18,6 +22,7 @@
 .slider-section{
   height:50%;
   position:relative;
+  box-shadow: 1px 5px 12px 2px rgba(84,84,255,1);
 
 }
 .slider-section img{
@@ -32,6 +37,7 @@
   transform: translateY(-50%);
   font-size:46px;
   color:#fff;
+  opacity:0.6;
 }
 .slider-left{
   left: 20px;
@@ -51,6 +57,7 @@
 }
 .bullet{
   margin: 0 5px;
+  opacity:0.6;
 }
 /* /bullet btn */
 
@@ -63,11 +70,11 @@
 .box{
 
   height:30vh;
-  width:200px;
+  width: calc((100% / 3) - 40px);;
 
 }
 .box img{
   width:100%;
   height:100%;
-  object-fit: contain;
+  object-fit: cover;
 }
