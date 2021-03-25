@@ -24,7 +24,7 @@
         <img v-bind:src="imgSlider[indexImg]" alt="test">
         <i class="fas fa-angle-right slider-right" @click = "rightBtn"></i>
         <div class="bullets-box">
-          <i class="fas fa-circle bullet" v-for="(item, index) in imgSlider" v-on:click="indexImg = index" >{{index}}</i>
+          <i class="fas fa-circle bullet" v-for="(item, index) in imgSlider" :class= "indexImg == index ? 'color-btn' : '' " v-on:click="indexImg = index" ></i>
         </div>
       </div>
       <!-- /slider section -->

@@ -7,7 +7,7 @@
 }
 
 .color-btn{
-  color:blue;
+  color:#00008e;
 }
 /* /MIX */
 
@@ -47,9 +47,9 @@
   bottom: 20px;
   left: 50%;
   transform:translateX(-50%);
+  color:#fff;
 }
 .bullet{
-  color:#fff;
   margin: 0 5px;
 }
 /* /bullet btn */
